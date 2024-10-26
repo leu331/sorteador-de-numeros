@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <title>Numbers</title>
+</head>
+<body>
+    <main class="container">
+        <header class="flex">
+            <a href="#">
+                <img src="assets/logo.svg" alt="">
+            </a>
+
+            <h1>Numbers</h1>
+        </header>
+
+        <p id="one">ONLINE - GRATUITO</p>
+
+        <div class="flex gap-lg">
+            <div id="about">
+                <h1>SORTEADOR DE NÚMEROS</h1>
+
+                <div class="flex gap-05 mt">
+                    <img src="assets/user-icon.svg" alt="">
+                    <p class="purple text-sm">Como funciona o sorteador de números?</p>
+                </div>
+                <p class="mt1 ml text-sm">O sorteador utiliza um algoritmo de geração aleatória para criar números dentro do intervalo especificado pelo usuário.</p>
+
+                <div class="flex gap-05 mt">
+                    <img src="assets/user-icon.svg" alt="">
+                    <p class="purple text-sm">Posso escolher o intervalo dos números?</p>
+                </div>
+                <p class="mt1 ml text-sm">Sim, você pode definir os valores mínimo e máximo para o intervalo dos números sorteados.</p>
+            </div>
+
+            <div id="prize-draw">
+                <h2>Quero sortear</h2>
+                <p>defina o intervalo e a quantidade de números, clique em "Sortear" e veja os resultados na tela. É rápido e fácil!</p>
+
+                <form>
+                    <div class="flex gap-16 center">
+                        <div id="n1">
+                            <label for="number">NÚMEROS</label> 
+                            <br>
+                            <input type="text" id="number" value="number" placeholder="2">
+                        </div>
+    
+                        <div id="n2">
+                            <label for="from">DE</label> 
+                            <br>
+                            <input type="text" id="from" value="from" placeholder="1">
+                        </div>
+    
+                        <div id="n2">
+                            <label for="from">A</label> 
+                            <br>
+                            <input type="text" id="from" value="from" placeholder="100">
+                        </div>
+                    </div>
+                    
+                    <div class="flex relative gap-05">
+                        <input type="checkbox" id="chk" />
+                        <label for="chk" class="switch">
+                        <span class="slider"></span>
+                        </label>
+
+                        <span id="no-repeat" class="center">Não repetir número</span>
+                    </div>
+                </form>
+
+                <div class="flex gap-05 send">
+                    <button type="submit">SORTEAR </button> 
+             
+                </div>
+            </div>
+
+            
+
+        </div>
+    </main>
+    
+</body>
+</html>

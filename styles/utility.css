@@ -1,0 +1,51 @@
+.container {
+    max-width: 83.37rem;
+    max-height: 48rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.mt {
+    margin-top: 2.25rem;
+}
+
+.mt1 {
+    margin-top: 2px;
+}
+
+.gap-05 {
+    gap: .5rem;
+}
+
+.purple {
+    color: var(--content-brand)
+}
+
+.ml {
+    margin-left: 1.9rem;
+}
+
+.gap-lg {
+    gap: 6.75rem
+}
+
+.text-sm {
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: .9rem;
+}
+
+.gap-16 {
+    gap: 1rem
+}
+
+.relative {
+    position: relative;
+}
+
+.center {
+    text-align: center;
+}

@@ -1,0 +1,151 @@
+main {
+    padding-inline: 8.375rem;
+}
+
+header {
+    padding-top: 4.75rem;
+    gap: .75rem;
+    margin-bottom: 5.62rem;
+}
+
+h1 {
+    color: var(--content-primary);
+  
+}
+
+p#one {
+    margin-bottom: .75rem;
+}
+
+div#about {
+    max-width: 37.75rem;
+
+    & h1 {
+      line-height: 1.3;
+      font-size: 4.5rem;  
+    }
+}
+
+div#prize-draw {
+    max-width: 30rem;
+
+    & h2 {
+        margin-bottom: 5px;
+        font-family: "Roboto Flex", sans-serif;
+        color: var(--content-primary);
+        line-height: 1.5;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    & > p {
+        color: var(--content-secondary);
+        font-family: "Roboto Flex", sans-serif;
+    }
+
+    & form {
+        padding-block: 2.5rem;
+
+        & div.flex {
+            & span#no-repeat {
+                position: absolute;
+                top: 1.2rem; 
+                left: 3.5rem;
+            }
+            & div#n1, div#n2, div#n3 {
+                & input {
+                    padding-bottom: 5px;
+                }
+            }
+
+        }
+
+        & label {
+            text-align: center;
+
+        }
+
+        & input {
+            width: 6rem;
+            background-color: #111012;
+            border-radius: .5rem;
+            color: aliceblue;
+            border: 1px solid #111012;
+           
+            font-size: 2rem;
+            font-weight: 900;
+            margin-top: 5px;
+            
+            &::placeholder {
+                text-align: center;      
+            }
+            
+        & input#number:focus {
+            padding: 5rem;
+        }
+        
+    }
+}
+}
+
+#chk {
+    display: none;
+  }
+  
+  .switch {
+    margin-top: 1rem;
+    position: relative;
+    background-color: var(--accent-pink);
+    width: 2.8rem;
+    height: 1.5rem;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .slider {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    width:  1.1rem;
+    height: 1.1rem;
+    transition: all .5s ease-in-out;
+  }
+  
+  #chk:checked ~ .switch {
+    background-color: var(--accent-blue)
+  }
+  
+  #chk:checked ~ .switch .slider {
+    transform: translateX(1rem);
+  }
+
+  input[type="checkbox"]{
+position: absolute;
+  }
+
+  div.send{
+
+    width: 24.5rem;
+    height: 3rem;
+    border-radius: 5rem;
+    background-color: var(--background-tertiary);
+    position: relative;
+
+
+     & button {
+        color: var(--content-primary);
+        background-color: var(--background-tertiary);
+        border: 1px solid var(--background-tertiary);
+        border-radius: .5rem;
+        cursor: pointer;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        font-size: 1.2rem;
+        font-weight: 700;
+    } 
+}
