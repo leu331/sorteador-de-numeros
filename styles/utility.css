@@ -49,3 +49,8 @@
 .center {
     text-align: center;
 }
+
+.bg-click {
+   color: var(--back-ground-tertiary);
+   background-color: var(--content-primary);
+}

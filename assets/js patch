@@ -1,5 +1,0 @@
-fazer os inputs receberem apenas números
-aplicar a classe .center quando estiverem sendo digitados
-substituir o value pelo placeholder para auxiliar nas orientações do usuário
-adicionar o prevent default ao button submit
-adicionar a função de não repetir número ao checkbox 
